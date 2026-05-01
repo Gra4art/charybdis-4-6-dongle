@@ -29,6 +29,7 @@
 
 // Настройка трекбола под 2 слоя[cite: 2, 4]
 &trackball_listener {
+    /delete-node/ snipe; // Полностью удаляем снайперский режим, чтобы не смущать компилятор
     scroll {
         layers = <LOWER>;
     };
@@ -36,6 +37,7 @@
         layers = <BASE LOWER>;
         /delete-property/ input-processors; 
     };
+    
     snipe {
         layers = <>;
     };
