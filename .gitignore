@@ -1,0 +1,13 @@
+# Сборочные директории и кэш
+build/
+
+# Скачанные зависимости ZMK и Zephyr (West Workspace)
+.west/
+bootloader/
+modules/
+tools/
+zephyr/
+zmk/
+
+# Локальные настройки Dev Container (опционально)
+.devcontainer/
