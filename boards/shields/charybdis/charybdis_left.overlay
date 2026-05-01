@@ -1,6 +1,10 @@
 #include "charybdis.dtsi"
 #include "split_input_common.dtsi"
 
+&trackball_split {
+    status = "disabled";
+};
+
 &kscan0 {
 	compatible = "zmk,kscan-gpio-matrix";
 	
