@@ -20,13 +20,9 @@
     status = "disabled";
     device = <&trackball_split>;
 
-    snipe {
-      layers = <>;
-      input-processors = <&zip_xy_scaler 1 3>;
-    };
-
     scroll {
       layers = <LOWER>;
+      input-processors = <&zip_xy_scaler 1 3>, <&zip_xy_to_scroll_mapper>;
     };
 
     move {
