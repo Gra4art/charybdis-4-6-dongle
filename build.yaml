@@ -23,4 +23,4 @@ include:
   - board: nice_nano/nrf52840/zmk
     shield: charybdis_right
   - board: nice_nano/nrf52840/zmk
-    shield: sweep_dongle dongle_display
+    shield: charybdis_dongle dongle_display
