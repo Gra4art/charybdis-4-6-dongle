@@ -1,5 +1,7 @@
 # Сборочные директории и кэш
 build/
+zmk-dongle-display/
+zmk-pmw3610-driver/
 
 # Скачанные зависимости ZMK и Zephyr (West Workspace)
 .west/
